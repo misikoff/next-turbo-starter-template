@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import classNames from 'classnames'
+import clsx from 'clsx'
 
 const navLinks = [{ name: 'Articles', href: '/articles', current: false }]
 
@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={classNames(
+                className={clsx(
                   item.current
                     ? 'border-indigo-500 text-gray-900'
                     : 'border-transparent text-gray-700 duration-1000 hover:border-gray-300 hover:text-blue-600',

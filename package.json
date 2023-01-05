@@ -1,43 +1,28 @@
 {
+  "name": "maya-apps",
+  "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.7.7",
-    "@heroicons/react": "^2.0.13",
-    "@mdx-js/loader": "^1.6.22",
-    "@next/mdx": "^13.1.1",
-    "classnames": "^2.3.2",
-    "lodash": "^4.17.21",
-    "next": "^13.1.1",
-    "next-mdx-remote": "^4.2.0",
-    "next-pwa": "^5.6.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.57.1"
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.0",
-    "@commitlint/config-conventional": "^17.4.0",
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/typography": "^0.5.8",
-    "@types/classnames": "^2.3.1",
-    "@types/react": "^18.0.26",
-    "autoprefixer": "^10.4.13",
-    "eslint": "^8.31.0",
-    "eslint-config-next": "^13.1.1",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "gray-matter": "^4.0.3",
+    "@commitlint/config-conventional": "^17.3.0",
+    "commitlint": "^17.3.0",
+    "eslint-config-custom": "*",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
-    "postcss": "^8.4.20",
     "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.2.1",
-    "tailwindcss": "^3.2.4"
-  }
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
 }
