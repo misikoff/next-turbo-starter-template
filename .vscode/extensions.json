@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "codezombiech.gitignore",
+        "yzhang.markdown-all-in-one",
+        "leizongmin.node-module-intellisense",
+        "syler.sass-indented",
+        "mrmlnc.vscode-scss",
+        "stylelint.vscode-stylelint",
+        "bradlc.vscode-tailwindcss",
+        "rbbit.typescript-hero",
+        "gamunu.vscode-yarn",
+        "christian-kohler.npm-intellisense"
+    ]
+}
