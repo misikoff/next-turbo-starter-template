@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
-    "@heroicons/react": "^2.0.13",
+    "@heroicons/react": "^2.0.14",
     "@mdx-js/loader": "^2.2.1",
     "@next/mdx": "^13.1.5",
     "clsx": "^1.2.1",
