@@ -8,7 +8,6 @@
         "mrmlnc.vscode-scss",
         "stylelint.vscode-stylelint",
         "bradlc.vscode-tailwindcss",
-        "rbbit.typescript-hero",
         "gamunu.vscode-yarn",
         "christian-kohler.npm-intellisense"
     ]
