@@ -17,7 +17,7 @@
     "commitlint": "^17.6.6",
     "eslint-config-custom": "*",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^13.2.3",
     "prettier": "^2.8.8",
     "turbo": "latest"
   },
