@@ -1,7 +1,7 @@
 import Footer from 'components/footer'
 import Navbar from 'components/navbar'
 
-import 'tailwindcss/tailwind.css'
+import '../assets/globals.css'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
