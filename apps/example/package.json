@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/react": "^18.2.37",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-config-custom": "*",
     "postcss": "^8.4.31",
     "prettier": "^2.8.8",
