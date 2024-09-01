@@ -8,6 +8,7 @@ module.exports = {
   ],
   plugins: ['prettier'],
   rules: {
+    curly: ['error', 'all'],
     'import/order': [
       'error',
       {
