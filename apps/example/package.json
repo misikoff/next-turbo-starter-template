@@ -14,15 +14,15 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@repo/eslint-config-custom": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "@types/react": "^18.3.12",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.14.0",
-    "eslint-config-custom": "*",
+    "eslint": "^8.57.1",
     "postcss": "^8.4.48",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.14",
-    "tsconfig": "*",
     "typescript": "^5.6.3"
   }
 }

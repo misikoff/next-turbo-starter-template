@@ -4,7 +4,7 @@ This is a starter turborepo.
 
 ## What's inside?
 
-This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. It includes the following packages/apps:
+This turborepo uses [pnpm](https://pnpm.io/) as a package manager. It includes the following packages/apps:
 
 ### Apps and Packages
 
@@ -27,7 +27,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-yarn run build
+pnpm build
 ```
 
 ### Develop
@@ -36,7 +36,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-yarn run dev
+pnpm dev
 ```
 
 ### Remote Caching

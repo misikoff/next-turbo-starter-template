@@ -14,15 +14,15 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.5.0",
+    "@repo/eslint-config-custom": "workspace:*",
     "commitlint": "^19.5.0",
-    "eslint-config-custom": "*",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=20.0.0"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "pnpm@9.4.0"
 }
