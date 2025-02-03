@@ -15,7 +15,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^19.7.1",
     "@repo/eslint-config-custom": "workspace:*",
-    "commitlint": "^19.6.1",
+    "commitlint": "^19.7.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "prettier": "^3.4.2",
