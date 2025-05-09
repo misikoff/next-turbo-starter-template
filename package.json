@@ -13,7 +13,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.1",
     "@repo/eslint-config-custom": "workspace:*",
     "commitlint": "^19.8.0",
     "husky": "^9.1.7",
