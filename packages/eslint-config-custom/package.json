@@ -4,7 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.15",
+    "eslint-config-next": "^15.4.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.5.3",
     "eslint-plugin-react": "7.37.5",
